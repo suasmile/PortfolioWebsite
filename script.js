@@ -45,30 +45,30 @@ $("document").ready(function(){
 
     $(".Line")
         .mouseenter(function() {
-            cursor.css({transform: "scale(2)"});
+            cursor.css({transform: "scale(5)"});
         })
         .mouseleave(function() {
-            cursor.css({transform: "scale(.5)"});
+            cursor.css({transform: "scale(1)"});
         });
       
     $(".Line2")
         .mouseenter(function() {
             cursor.css("background-color","purple");
-            cursor.css({transform: "scale(1)"});
+            cursor.css({transform: "scale(3)"});
         })
         .mouseleave(function() {
           cursor.css("background-color","white");
-          cursor.css({transform: "scale(0.5)"});
+          cursor.css({transform: "scale(1)"});
     });  
 
     $(".Line3")
         .mouseenter(function() {
             cursor.css("background-color","purple");
-            cursor.css({transform: "scale(1)"});
+            cursor.css({transform: "scale(3)"});
         })
         .mouseleave(function() {
           cursor.css("background-color","white");
-          cursor.css({transform: "scale(0.5)"});
+          cursor.css({transform: "scale(1)"});
      });  
     
     $(".Intro")
@@ -79,7 +79,7 @@ $("document").ready(function(){
         })
         .mouseleave(function() {
           cursor.css("background-color","white");
-          cursor.css({transform: "scale(.5)"});
+          cursor.css({transform: "scale(1)"});
          // cursor.css({filter: "blur(0)"});
     });  
 
